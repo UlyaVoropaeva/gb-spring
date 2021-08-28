@@ -12,7 +12,6 @@ public class ShopConfiguration {
     private final ProductRepository productRepository;
     private final Shop shop;
 
-
     public ShopConfiguration(ProductRepository productRepository, Shop shop) {
         this.productRepository = productRepository;
         this.shop = shop;

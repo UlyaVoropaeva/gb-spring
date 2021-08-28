@@ -15,6 +15,5 @@ public class SpringApplication {
         ShopConfiguration shop = context.getBean(ShopConfiguration.class);
         shop.start();
 
-
     }
 }

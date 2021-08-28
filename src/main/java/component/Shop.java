@@ -1,6 +1,5 @@
 package component;
 
-
 import org.springframework.stereotype.Component;
 import javax.inject.Provider;
 

@@ -32,7 +32,6 @@ public class Cart {
                 .ifPresent(p -> products.remove(p));
     }
 
-
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();

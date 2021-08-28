@@ -24,6 +24,7 @@ public class ProductRepository {
         products.add(new Product(counter.getAndIncrement(), "Raspberry", 30));
     }
 
+
     public Optional<Product> getProductById(int id) {
 
         for (Product product : products) {

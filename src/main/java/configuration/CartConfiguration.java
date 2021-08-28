@@ -24,5 +24,4 @@ public class CartConfiguration {
     public Shop shop(Provider<Cart> cartProvider) {
         return new Shop(cartProvider);
     }
-
 }
